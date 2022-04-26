@@ -1,0 +1,3 @@
+cmdkey /delete:LegacyGeneric:target=git:https://github.com apagar a conta de quem esta logado
+git config --global user.name " "
+git config --global user.email " "
