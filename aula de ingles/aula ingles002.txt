@@ -1,0 +1,20 @@
+1 A: hello. What's "YOUR" name?
+B: Hi "MY" name is Carlos.
+	What's "YOUR" name?
+A: "MY" name is Akina.
+
+2- A: What's "YOUR" name?
+B: "MY" name is Ethan.
+A: And what's "YOUR" name?
+B: "MY" name is Caroline.
+
+What's your friend's last name?
+ritzke   R-I-T-Z-K-E
+R(ar)	I(ai)	T(TI)	Z(zi)	K(kei)	E(i)
+
+Sophia
+A(ei) I(ai) H(eitch) P(pi) O(ou) S(es)
+
+Zackary
+Y(uai) R(ar) A(ei) K(kei) C(ci) A(ei) Z(zi)
+
