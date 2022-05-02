@@ -19,26 +19,28 @@ Zackary
 Y(uai) R(ar) A(ei) K(kei) C(ci) A(ei) Z(zi)
 
 
+9 -Modulo Grammar Focus
 Complete the conversation wich the correct words in parentheses.
 
-Ben: Hello,Crist How "are" (are/is)you?
+Ben: Hello,Crist How "are" you? (are/is)
 
-Crist: "i'M" (i'm/it's) fine, thanks.
- "i'm" (i'm/it's) sorry what's your name again?
+Crist: "i'M" fine, thanks. (i'm/it's)
+ "i'm" sorry what's your name again? (i'm/it's)
 
-Ben: "it's" (is/it's) Ben Durant
+Ben: "it's" Ben Durant. (is/it's)
 
-Crist: That's right! Ben, this "is" (is/it's) Joshua Brown.
-	"he's" (he's/she's) in our history class.
+Crist: That's right! Ben, this "is" Joshua Brown. (is/it's)
+	"he's" in our history class. (he's/she's)
 
-Ben: "i'm" (i'm/it's) nice to meet you.
+Ben: "i't"  nice to meet you. (i'm/it's)
 
-Joshua: Hi,Ben. I think "you're" (i'm/you're) in my English class, too
+Joshua: Hi,Ben. I think "you're"  in my English class, too (i'm/you're)
 
 Ben: Oh, right! yes, I "am" (am/'m).
 
 
-Complete the conversations.
+Complete the conversations. 
+
 
 Cara: Excuse me. "are" you Alex lane?
 
@@ -49,10 +51,10 @@ Cara: "are" you Alex lane?
 
 Alex: Yes, I "am"
 
-Cara: Hi. "i'm" Cara Ruiz.git
+Cara: Hi. "i'm" Cara Ruiz.
 
 Alex: Oh, "you're" in my history class, right?
 
 Cara: Yes, i "am"
 
-Alex: "I'm" nice to meet you, Cara.
+Alex: "I'ts" nice to meet you, Cara.
