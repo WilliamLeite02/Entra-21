@@ -39,12 +39,17 @@ traduzir os itens da pagina.
 um notebook, um celular, uma carteira, um guardachuva, chaves, uma escova de cabelo, oculos de sol, barrinha de energia; 
 
 2-Articles
-This is a
-
-
+This is "a" book.             This is "a" notebook
+This is "an" English book     This is "a" pen
+This is "an" eraser           This is "a" clock
 
 ATIVIDADE;
 you entered a room with a lot of people at noon.
 What greeting do you say?
 R= hello Good afternoon.
+
+5-Grammar Focus
+This is a laptop.    What's this? It's a flash drive.
+these are laptops.   what are these?  They're flash drives.
+
 
