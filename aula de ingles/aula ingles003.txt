@@ -52,4 +52,9 @@ R= hello Good afternoon.
 This is a laptop.    What's this? It's a flash drive.
 these are laptops.   what are these?  They're flash drives.
 
+Este, Esta - Estas, Estes
+This is | There are
+
+Esse, Essa - Essas Esses
+That | Those
 
