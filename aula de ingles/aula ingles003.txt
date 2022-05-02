@@ -52,9 +52,11 @@ R= hello Good afternoon.
 This is a laptop.    What's this? It's a flash drive.
 these are laptops.   what are these?  They're flash drives.
 
-Este, Esta - Estas, Estes
-This is | There are
+Quando esta perto 
+1 item = Isso , Esta | mais de 1 = Estas, Estes       
+1- This is | 1+ There are
 
-Esse, Essa - Essas Esses
-That | Those
+Quando esta longe.
+1 item = Esse, Essa | mais de 1 = Essas Esses
+1- That | Those  1+
 
