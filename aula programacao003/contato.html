@@ -27,14 +27,27 @@
         <label>E-mail:</label>
         <input type="text" name="email">
 
-        <label>Estado:</label>
+                <label>Estado:</label>
         <select name="estado" >
             <option value="">Selecione o estado</option>
             <option value="SC">Santa Catarina</option>
             <option value="PR">Paraná</option>
             <option value="RS">Rio Grande do Sul</option>
         </select>
-        
+
+        <input type="date" name="data">
+
+        <label>Sexo:</label>
+        <span>
+            Masculino<input type="radio" name="sexo" value="M">
+            Feminino <input type="radio" name="sexo" value="F">
+        </span>
+
+        <label>Comidas:</label>
+        <input type="checkbox" name="comida" value="Lasanha">Lasanha
+        <input type="checkbox" name="comida" value="Pizza">Pizza
+        <input type="checkbox" name="comida" value="Pãoquente">Pãoquente
+        <input type="checkbox" name="comida" value="Hamburguers">Hamburguer
 
         <label>Senha:</label>
         <input type="password" name="senha">
@@ -43,6 +56,8 @@
 
         <button type="reset">Apagar</button>
     </form>
+    <!-- (disable) para dessabilitar uma função -->
+    <!-- (readonly) apenas ler aquele valor ja setado -->
         
 
 
