@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>                    
+    
+</head>                                         
+<body>
+    <center>
+    <img src="img/entra21p.png">
+     <nav> 
+        <a href="index.html">Home</a>
+        <a href="empresa.html">Empresa</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="contato.html">Contatos</a>
+        <a href="cadastro.html">Cadastro</a>
+    </nav>
+    </center>
+    <br>
+    <center>
+        <h1 aligh="center">Cadastro de dados</h1>
+    </center>
+      <form action="bancodedados.cs" method="post">
+        <label>Nome:</label>
+        <input type="text" name="Nome" placeholder="Ex;William">
+        <br>
+        <label>Cpf:</label>
+        <input type="text" name="Cpf" placeholder="EX;123-123-123-12">
+        <br>
+        <label>RG:</label>
+        <input type="text" name="Rg" placeholder="EX;123.123.12">
+        <br>
+        <label>Email:</label>
+        <input type="text" name="Email" placeholder="Ex;william@gmail.com">
+        <br>
+        <label>Endereço:</label>
+        <input type="text" name="Rua" placeholder="Ex;Rua alfredo roiter">
+        <br>
+        <label>Nº</label>
+        <input type="text" name="Numero casa" placeholder="Ex;11">
+        <br>
+        <label>Bairro:</label>
+        <input type="text" name="Bairro" placeholder="Ex;Velha-Central">
+        <br>
+        <label>Cidade:</label>                          <!--(Value) é utilizado quando tem seleção de itens ou marcação-->
+        <select name="Cidade" >
+            <option value="">Selecione sua cidade</option>
+            <option value="BNU">Blumenau</option>
+            <option value="CTB">Curitiba</option>
+            <option value="BG">Bento Gonçalves</option>
+        </select>
+        <br>
+        <label>Estado:</label>
+        <select name="estado" >
+            <option value="">Selecione o estado</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="PR">Paraná</option>
+            <option value="RS">Rio Grande do Sul</option>
+        </select>
+        <br>   
+        <label>Sexo:</label>
+        <span>
+            Masculino<input type="radio" name="sexo" value="M">
+            Feminino <input type="radio" name="sexo" value="F">
+        </span>
+        <br>
+        <label>Nacionalidade:</label>
+        <input type="checkbox" name="Nacionalidade" value="Brasileiro">Brasileiro
+        <input type="checkbox" name="Nacionalidade" value="outros">Outros
+        <br>
+        <input type="submit" name="enviar" value="Enviar">
+        <button type="reset">Apagar</button>
+    </form>
+    
+
+
+</body>
+</html>
