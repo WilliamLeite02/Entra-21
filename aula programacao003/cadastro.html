@@ -21,60 +21,93 @@
     <br>
     <center>
         <h1 aligh="center">Cadastro de dados</h1>
-    </center>
-      <form action="bancodedados.cs" method="post">
+    </center>               <!-- (multipart/from-data) usado para fazer um upload temporario do seu arquivo e mandar para o servidor.-->
+      <form action="bancodedados.cs" method="post" enctype="multipart/form-data">     <!-- (enctype) sujestão de tipo de arquivo a ser mandado -->
         <label>Nome:</label>
-        <input type="text" name="Nome" placeholder="Ex;William">
+        <input type="text" name="Nome" value="william" placeholder="Ex;William">
+        
         <br>
+        
         <label>Cpf:</label>
-        <input type="text" name="Cpf" placeholder="EX;123-123-123-12">
+        <input type="text" name="Cpf" placeholder="EX;123-123-123-12" autocomplete="off">
+        
         <br>
+        
         <label>RG:</label>
         <input type="text" name="Rg" placeholder="EX;123.123.12">
+        
         <br>
+        
         <label>Email:</label>
         <input type="text" name="Email" placeholder="Ex;william@gmail.com">
+        
         <br>
+        
         <label>Endereço:</label>
         <input type="text" name="Rua" placeholder="Ex;Rua alfredo roiter">
+        
         <br>
+        
         <label>Nº</label>
         <input type="text" name="Numero casa" placeholder="Ex;11">
+        
         <br>
+        
         <label>Bairro:</label>
         <input type="text" name="Bairro" placeholder="Ex;Velha-Central">
+        
         <br>
-        <label>Cidade:</label>                          <!--(Value) é utilizado quando tem seleção de itens ou marcação-->
+        
+        <label>Cidade:</label>      <!--(Value) é utilizado quando tem seleção de itens ou marcação. Tambem usado para preenchimento de dados do banco de dados-->
         <select name="Cidade" >
             <option value="">Selecione sua cidade</option>
             <option value="BNU">Blumenau</option>
             <option value="CTB">Curitiba</option>
             <option value="BG">Bento Gonçalves</option>
         </select>
+        
         <br>
+
         <label>Estado:</label>
         <select name="estado" >
             <option value="">Selecione o estado</option>
-            <option value="SC">Santa Catarina</option>
+            <option value="SC" selected >Santa Catarina</option>    <!-- (Selected) utilizado para ja deixar selecionado parametro (Selected)-->
             <option value="PR">Paraná</option>
             <option value="RS">Rio Grande do Sul</option>
         </select>
+
         <br>   
+        
         <label>Sexo:</label>
-        <span>
-            Masculino<input type="radio" name="sexo" value="M">
-            Feminino <input type="radio" name="sexo" value="F">
-        </span>
+        <span style="color:blue"> Masculino<input type="radio" name="sexo" value="M"> </span>
+        <span style="color:rgb(228, 17, 175)"> Feminino <input type="radio" name="sexo" value="F"></span>
+        <!-- <span> que é usado para colorir uma parte de um texto -->
+        
         <br>
+        
         <label>Nacionalidade:</label>
-        <input type="checkbox" name="Nacionalidade" value="Brasileiro">Brasileiro
+        <input type="checkbox" name="Nacionalidade" value="Brasileiro" checked>Brasileiro
         <input type="checkbox" name="Nacionalidade" value="outros">Outros
+        <!-- (Checked) utilizado para deixar selecionado no parametro (radio e checkbox)-->
+        
         <br>
+        
+        <label>Foto</label>
+        <input type="file" name="foto" multiple> <!-- atributo (file) para enviar uma imagem (multiple) para selecionar mais de uma imagem -->
+
+        <br>
+
         <input type="submit" name="enviar" value="Enviar">
         <button type="reset">Apagar</button>
+
+        <br>
+
+        <input type="hidden" name="local" value="BNU">
+        <!-- atributo (hidden) comando invisivel para o usuário deve conter o (value) preenchido por um comando ou codigo -->
+
     </form>
     
-
+<!-- Por padrão o navegador ja vem com o comando (autocomplete) para nao salvar os dados entao colocar (autocomplete=of ou =false)-->
 
 </body>
 </html>
