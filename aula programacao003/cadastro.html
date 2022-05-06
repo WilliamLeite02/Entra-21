@@ -49,7 +49,8 @@
         <br>
         
         <label>Nº</label>
-        <input type="text" name="Numero casa" placeholder="Ex;11">
+        <input type="text" name="Numero casa" placeholder="Ex;11" maxlength="4">
+        <!-- (minlength) minimo de caracters (maxlength) maximo da caracteres -->
         
         <br>
         
@@ -102,8 +103,12 @@
 
         <br>
 
-        <input type="hidden" name="local" value="BNU">
+        <input type="hidden" name="local" value="IPv4">
         <!-- atributo (hidden) comando invisivel para o usuário deve conter o (value) preenchido por um comando ou codigo -->
+
+        <label>Texto:</label>
+        <textarea name="texto" required></textarea>
+        <!-- (textarea) comando de caixa de texto -->
 
     </form>
     
