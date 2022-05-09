@@ -54,14 +54,14 @@ these are laptops.   what are these?  They're flash drives.
 
 Quando esta perto 
 1 item = Isso , Esta | mais de 1 = Estas, Estes       
-1- This is | 1+ There are
+1- This is | 1+ These are
 
 Quando esta longe.
 1 item = Esse, Essa | mais de 1 = Essas Esses
 1- That | Those  1+
 
 
-ATIVIDADE COM IMAGEM
+ATIVIDADE COM IMAGEM = sala de jogos.png
 that's my living room and there're my friends.
 those guys playing in those computers.
 i like this place.
