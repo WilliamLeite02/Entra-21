@@ -24,7 +24,7 @@ nav{
 
 .homeArticle{
     width: 43%;
-    background: rgb(178, 8, 8);
+    background: rgb(231, 220, 220);
     margin: 5px 0;  /* parametro (5px 0px) margem em cima e em baixo / direita e esquerda*/
     border-radius: 50px;
     box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 5);
@@ -35,12 +35,38 @@ nav{
 .homeArticle img{
     float: left;
     margin-right: 10px;
-    border: 1px solid #3a1 608;
+    border: 50px solid rgb(207, 231, 22) 608;
     border-radius: 15px;
 }
 .homeArticle h2{
     font-size: 15px;
+    text-transform: uppercase;
     color: blue;
 }
+.homeArticle p{
+    font-size: italic;
+    text-indent: 5px;
+}
+.homeArticle a{
+    display: inline-block;
+    width: auto;
+    padding: 4px;
+    background: rgb(23, 32, 46);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    float: center;
 
+}
+.homeArticle a:hover{
+    background: green;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 5);
+
+}
+
+/* selecionando so um bloco de noticia */
+.homeArticle.active{
+    background: orange;
+    color: black;
+}
 
