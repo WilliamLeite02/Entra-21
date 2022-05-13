@@ -8,7 +8,7 @@ html, body{
     margin: 0; 
     /* preenchimento */
     padding: 0;
-
+    background-color: antiquewhite;
 }
 *{
         font-family: 'Roboto', 'Signika Negative', sans-serif;
@@ -18,20 +18,43 @@ nav{
     left: 0;
     top: 0;
     width: 100%;
-    height: 136px;
-    background: #3a1608;
+    height: 64px;
+    background: #fda16c;
 }
-
+main{
+    padding: 80px 0;
+}
+nav a{
+    display: block;
+	width: 50px;	
+	height: 5px;
+	padding: 5px;
+	float: left;
+	line-height: 15px;
+	color: rgb(105, 53, 53);
+	text-decoration: none; 
+    margin-left: +20px;
+}
+nav img{
+    width: 106px;
+    float: left;
+}
 .homeArticle{
-    width: 43%;
+    width: 44%;
     background: rgb(231, 220, 220);
-    margin: 5px 0;  /* parametro (5px 0px) margem em cima e em baixo / direita e esquerda*/
+    margin: 1% ;  /* parametro (5px 0px) margem em cima e em baixo / direita e esquerda*/
     border-radius: 50px;
     box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 5);
-    padding: 15px;
-    display: inline-block;
+    padding: 20px;
+    display: block;
+    float: left;
+    min-height: 150px;
 }
-
+/* selecionando so um bloco de noticia */
+.homeArticle.active{
+    background:rgb(231, 220, 220);
+    color: black;
+}
 .homeArticle img{
     float: left;
     margin-right: 10px;
@@ -48,25 +71,70 @@ nav{
     text-indent: 5px;
 }
 .homeArticle a{
-    display: inline-block;
+    display: block;
     width: auto;
+    left: 10%;
+    position: relative;
+    margin-right: 50%;
+    float: right;
     padding: 4px;
-    background: rgb(23, 32, 46);
-    color: #fff;
+    text-align: center;
     text-decoration: none;
+    color: rgb(226, 47, 47);
+    background: rgb(23, 32, 46);
     border-radius: 5px;
-    float: center;
 
 }
 .homeArticle a:hover{
-    background: green;
+    background: rgb(231, 245, 231);
     box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 5);
 
 }
-
-/* selecionando so um bloco de noticia */
-.homeArticle.active{
-    background: orange;
-    color: black;
+.carousel li{
+    width: 100%;
+    margin: 1%;
+    list-style: none;
+}
+.carousel{
+    width: 100%;
+    background-color: antiquewhite;
+    overflow: hidden;
+    display: inline-flex;
+    padding: 0%;
+    border-radius: 5px;
+}
+.carousel li img{
+    width: 100%;
+    height: 251px;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background: #fda16c;
 }
 
+footer .assinatura{
+    text-align: right;
+    height: 40px;
+    width: 100%;
+   
+}
+footer span{
+    display: inline-block;
+
+}
+
+/*display:block
+
+
+
+
+carousel li
+width: 31%
+list-style:none
+
+carousel li img
+width: 100%;
+
+
+*/
