@@ -121,7 +121,7 @@ footer{
     height: 30px;
     background: #fda16c;
     bottom: 0;
-    position: fixed;
+    position: static;
 }
 footer span{
     display: inline-block; 
