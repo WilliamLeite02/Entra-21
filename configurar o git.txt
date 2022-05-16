@@ -1,3 +1,4 @@
 cmdkey /delete:LegacyGeneric:target=git:https://github.com apagar a conta de quem esta logado
 git config --global user.name " "
 git config --global user.email " "
+https://qastack.com.br/programming/8840551/configuring-user-and-password-with-git-bash#:~:text=Se%20o%20seu%20repo%20for%20HTTPS%2C%20git%20config,para%20o%20reposit%C3%B3rio%2C%20ele%20n%C3%A3o%20pedir%C3%A1%20a%20senha.
