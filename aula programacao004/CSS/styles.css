@@ -7,11 +7,16 @@ html, body{
     /* margem */
     margin: 0; 
     /* preenchimento */
-    padding: 0;
+    padding: 0px;
     background-color: antiquewhite;
 }
 *{
         font-family: 'Roboto', 'Signika Negative', sans-serif;
+}
+/*View Port (VW W= width e VH h=height*/
+body.paginaHome{
+    background: url(../img/l.png) no-repeat center fixed;
+    background-size: 100vw;
 }
 nav{
     position: absolute;
@@ -19,10 +24,10 @@ nav{
     top: 0;
     width: 100%;
     height: 64px;
-    background: #fda16c;
+    background: #f37933;
 }
 main{
-    padding: 65px 0px;
+    padding: 100px 0px;
 }
 nav img{
     width: 106px;
@@ -51,9 +56,7 @@ nav a{
     padding: 30px;
     display: block;
     min-height: 125px;
-    float: left;
-    
-    
+    float: left;   
 }
 /* selecionando so um bloco de noticia */
 .homeArticle.active{
@@ -119,21 +122,76 @@ nav a{
 footer{
     width: 100%;
     height: 30px;
-    background: #fda16c;
+    background: #f37933;
     bottom: 0;
-    position: static;
+    position: relative;
+    margin: auto 0;
 }
 footer span{
     display: inline-block; 
-    width: 49%;
+    width: 48%;
     color: black;
+    padding: 10px;
 }
-footer .assinatura{
+footer.assinatura{
     text-align: right;
-    padding-left: 25px;
 }
-footer .assinatura a{
-	color: rgb(229, 15, 15);
+footer.assinatura a{
+	color: rgb(13, 241, 43);
 	text-decoration: none;
-    padding-left: 10px;
+    padding-left: 25px;
+
 }
+
+/*body.paginaServico{
+    background: unset;
+    <video src="..videos/ocean.mp4" muted autoplay loop></video>
+
+}
+css
+body.paginaServicos video{
+    pisition: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    deixar o video menos visivel
+    opacity: 0.4
+
+}
+css
+body.paginaServico nav{
+    background: #000;
+}
+Criar uma lente 
+primeiro criar uma <div> com class="lente" englobando todo o conteudo
+depois no no CSS
+html
+<div class="lente"></div>
+
+css
+body.paginaServico .lente{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    heigth:100%;
+    background: #fff;
+    opacity: 0.7;
+    z-index:-1;
+}
+
+body.paginaServico table{
+    width:90%;
+    margin:0 auto;
+    border: 1px solid #fff;
+}
+body.paginaServico table td{
+    background: #000;
+    pading: 5px;
+}
+body.paginaServico table.titulo td{
+
+}
+
+*/
