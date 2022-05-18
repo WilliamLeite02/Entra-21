@@ -1,51 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Contatos</title>                    
-    
-</head>                                         
+    <title>Contatos</title>
+</head>
 <body>
-    <center>
-    <img src="img/entra21p.png">
-    <nav> 
-        <a href="home.html">Home</a>
-        <a href="empresa.html">Empresa</a>
-        <a href="servicos.html">Serviços</a>
-        <a href="noticias.html">Noticias</a>
-        <a href="midia.html">Midia</a>
-        <a href="contato.html">Contatos</a>
-        <a href="cadastro.html">Cadastro</a>
-    </nav>
-    </center>
-    <br>
+    <header>
+        <nav>
+            <img src="img/entra21p.png">
+            <a href="home.html">Home</a>
+            <a href="empresa.html">Empresa</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="midia.html">Midia</a>
+            <a href="contato.html">Contato</a>
+            <a href="cadastro.html">Cadastro</a>
+        </nav>
+    </header>
     <!-- barra de pesquisa/link é o (GET) metodo menos seguro (POST) modo seguro-->
-
-    <form action="enviaemail.cs" method="post">
-        <label>Nome:</label>
-        <input type="text" Name="nome" placeholder="Ex; William">
-        
-        <label>E-mail:</label>
-        <input type="text" name="email" placeholder="Ex; william.@gmail.com">
-
-        <label>Whatsap:</label>
-        <input type="number" name="whats" placeholder="Ex; (47)91234-4321">
-
-        <input type="text" name="setor" placeholder="Informe seu setor">
-
-        <label>Texto:</label>
-        <textarea name="texto" required></textarea>
-        
-        <input type="submit" name="enviar" value="Enviar">
-        <button type="reset">Apagar</button>
-    </form>
+    <main>
+        <center>
+            <h2>Contato</h2>
+        </center>
+        <form action="?" method="post">
+            <div class="fomGroup metade">
+                <label>Nome:</label>
+                <input type="text" Name="nome" placeholder="Ex; William">
+            </div>
+            <div class="formGroup total">
+                <label>E-mail:</label>
+                <input type="text" name="email" placeholder="Ex; william.@gmail.com">
+            </div>
+            <div class="formGroup metade">
+                <label>Whatsap:</label>
+                <input type="number" name="whats" placeholder="Ex; (47)91234-4321">
+            </div>
+            <div class="formGroup total">
+                <label for="setor">Setor</label>
+                <select name="setor">
+                    <option value="">Selecione</option>
+                    <option value="1">Vendas</option>
+                    <option value="2">Financeiro</option>
+                    <option value="3">Gerência</option>
+                    <option value="4">Diretoria</option>
+                </select>
+            </div>
+            <div class="formGrouptotal">
+                <label>Texto:</label>
+                <textarea name="mensagem" required></textarea>
+            </div>
+            <div class="fornGroup inteiro">
+                <input type="submit" name="enviar" value="Enviar">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <span class="direitos">2022 &copy; Todos os direitos autorais reservados. </span>
+        <span class="assinatura"> Feito por:<a href="https://github.com/Williamleite02"
+                target="_blank">WilliamLeite</a></span>
+    </footer>
     <!-- (disable) para dessabilitar uma função -->
     <!-- (readonly) apenas ler aquele valor ja setado -->
-        
-
-
 </body>
 </html>

@@ -9,6 +9,7 @@ html, body{
     /* preenchimento */
     padding: 0px;
     background-color: antiquewhite;
+    min-height: 100%;
 }
 *{
         font-family: 'Roboto', 'Signika Negative', sans-serif;
@@ -22,8 +23,6 @@ body.paginaHome{
     background: url(../img/l.png) no-repeat center fixed;
     background-size: 100vw;
 }
-
-
 nav{
     position: absolute;
     left: 0;
@@ -33,7 +32,7 @@ nav{
     background: #f37933;
 }
 main{
-    padding:150px 0px;
+    padding:100px 0px;
 }
 nav img{
     width: 90px;
@@ -131,7 +130,7 @@ footer{
     height: 40px;
     background: #f37933;
     bottom: 0;
-    position: relative;
+    position:static;
     margin: auto 0;
 }
 footer span{
@@ -150,6 +149,16 @@ footer .assinatura a{
     padding-left:5px;
 
 }
+body.paginaHome img{
+    padding-top: +150px;
+    width: 300px;
+    height: 200px;
+}
+
+
+
+
+
 
 /*body.paginaServico{
     background: unset;
