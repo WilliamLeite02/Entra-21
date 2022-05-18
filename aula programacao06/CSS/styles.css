@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+/* : usado para reconhecer um parametro */
+
+
+html, body{
+    /* margem */
+    margin: 0; 
+    /* preenchimento */
+    padding: 0px;
+    background-color: antiquewhite;
+}
+*{
+        font-family: 'Roboto', 'Signika Negative', sans-serif;
+}
+/*View Port (VW W= width e VH h=height*/
+body.paginaNoticia{
+    background: url(../img/l.png) no-repeat center fixed;
+    background-size: 100vw;
+}
+body.paginaHome{
+    background: url(../img/l.png) no-repeat center fixed;
+    background-size: 100vw;
+}
+
+
+nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 65px;
+    background: #f37933;
+}
+main{
+    padding:150px 0px;
+}
+nav img{
+    width: 90px;
+    height: 65px;
+    float: left;
+}
+nav a{
+    display: block;
+	width: auto;	
+	height: 56px;
+	padding: 4px;
+	float: left;
+	line-height: 53px;
+	color: white;
+	text-decoration: none; 
+    margin-left: +15px;
+    font-family:'Signika Negative';
+    font-weight: 800;
+    font-size: 18px;
+}
+.homeArticle{
+    width: 44%;
+    background: rgb(231, 220, 220);
+    margin: 25px 1%;  /* parametro (5px 0px) margem em cima e em baixo / direita e esquerda*/
+    border-radius: 25px;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 5);
+    padding: 30px;
+    display: block;
+    min-height: 125px;
+    float: left;   
+}
+/* selecionando so um bloco de noticia */
+.homeArticle.active{
+    background:rgb(231, 220, 220);
+    color: black;
+    
+}
+.homeArticle img{
+    float: left;
+    width: 35%;
+    height: 150px;
+    margin-right: 10px ;
+    border: 10px  black;
+    border-radius: 15px;
+    
+}
+.homeArticle h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+.homeArticle p{
+    font-size: italic;
+    text-indent: 20px;
+}
+.homeArticle a{
+    display: block;
+    width: 80px;
+    position: relative;
+    margin-right: 40%;
+    float: right;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(226, 47, 47);
+    background: rgb(23, 32, 46);
+    border-radius: 5px;
+
+}
+.homeArticle a:hover{
+    background: rgb(231, 245, 231);
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 5);
+
+}
+.carousel li{
+    width: 22%;
+    margin: 0 1%;
+    list-style: none;
+    display: inline-block;
+}
+.carousel{
+    width: 100%;
+    background-color: antiquewhite;
+    overflow: hidden;
+    display: block;
+    padding: 0%;
+    text-align: center;
+}
+.carousel li img{
+    width: 100%;
+    height: 251px;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background: #f37933;
+    bottom: 0;
+    position: relative;
+    margin: auto 0;
+}
+footer span{
+    display: inline-block; 
+    width: 48%;
+    color: black;
+    padding: 10px;
+}
+footer .assinatura{
+    text-align: right;
+    padding-left: 25px;
+}
+footer .assinatura a{
+	color: rgb(13, 241, 43);
+	text-decoration: none;
+    padding-left:5px;
+
+}
+
+/*body.paginaServico{
+    background: unset;
+    <video src="..videos/ocean.mp4" muted autoplay loop></video>
+
+}
+css
+body.paginaServicos video{
+    pisition: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    deixar o video menos visivel
+    opacity: 0.4
+
+}
+css
+body.paginaServico nav{
+    background: #000;
+}
+Criar uma lente 
+primeiro criar uma <div> com class="lente" englobando todo o conteudo
+depois no no CSS
+html
+<div class="lente"></div>
+
+css
+body.paginaServico .lente{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    heigth:100%;
+    background: #fff;
+    opacity: 0.7;
+    z-index:-1;
+}
+
+body.paginaServico table{
+    width:90%;
+    margin:0 auto;
+    border: 1px solid #fff;
+}
+body.paginaServico table td{
+    background: #000;
+    pading: 5px;
+}
+body.paginaServico table.titulo td{
+
+}
+
+*/
