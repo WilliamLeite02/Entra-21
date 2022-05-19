@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Contatos</title>
 </head>
-<body>
+<body class="paginaContato">
     <header>
         <nav>
             <img src="img/entra21p.png">
@@ -26,17 +26,17 @@
         <center>
             <h2>Contato</h2>
         </center>
-        <form action="?" method="post">
+        <form action="#">
             <div class="fomGroup metade">
-                <label>Nome:</label>
+                <label for="nome">Nome:</label>
                 <input type="text" Name="nome" placeholder="Ex; William">
             </div>
-            <div class="formGroup total">
-                <label>E-mail:</label>
+            <div class="formGroup metade">
+                <label for="email">E-mail:</label>
                 <input type="text" name="email" placeholder="Ex; william.@gmail.com">
             </div>
-            <div class="formGroup metade">
-                <label>Whatsap:</label>
+            <div class="formGroup total">
+                <label for="Whatsap">Whatsap:</label>
                 <input type="number" name="whats" placeholder="Ex; (47)91234-4321">
             </div>
             <div class="formGroup total">
@@ -49,8 +49,8 @@
                     <option value="4">Diretoria</option>
                 </select>
             </div>
-            <div class="formGrouptotal">
-                <label>Texto:</label>
+            <div class="formGroup total">
+                <label for="texto">Texto:</label>
                 <textarea name="mensagem" required></textarea>
             </div>
             <div class="fornGroup inteiro">

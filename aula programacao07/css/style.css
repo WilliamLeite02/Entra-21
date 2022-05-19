@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+display: flex;
+background: white;
+min-height: 500px;
+width: 1280px;
+flex-direction: row;
+align-items: center;
+}
+.coluna{
+width: 20%;
+height: 150px;
+}
+
+.coluna.red{
+    background:red;
+}
+.coluna.orange{
+    background: orange;
+}
+.coluna.black{
+    background: rgb(0, 0, 0);
+}
