@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/app.css">
-    <title>Document</title>
+    <title>Materialize</title>
 </head>
 <body>
-    <nav class="purple darken-1">
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo"><img src="../../aula programacao06/img/Background.png"></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">Home</a></li>
-            <li><a href="badges.html">Empresa</a></li>
-            <li><a href="collapsible.html">Noticia</a></li>
-          </ul>
-        </div>
-      </nav>
+  <nav class="purple darken-1">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo"><img src="../../aula programacao06/img/Background.png"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="sass.html">Home</a></li>
+          <li><a href="badges.html">Empresa</a></li>
+          <li><a href="collapsible.html">Noticia</a></li>
+        </ul>
+    </div>
+  </nav>
 
       <main>
-          conteudo
+      <br>
       </main>
 
 
@@ -28,19 +28,129 @@
 <main class="container">
       <div class="row">
           <div class="col s12 m12">
-            <div class="carousel">
+            <div class="carousel carousel-slider">
                 <a class="carousel-item" href="#one!"><img src="../../aula programacao06/img/blumenau.jpg"width="100%"></a>
                 <a class="carousel-item" href="#two!"><img src="../../aula programacao06/img/predio2.jpg"width="100%"></a>
                 </div>
           </div>
       </div>
+
+      <div class="row">
+        <!-- inicio card1 -->
+        <div class="col s11 m4">
+          <div class="card large orange darken-2">
+            <div class="card-image">
+              <img src="imagem/salame.jpg" height="200px"></div>
+            <div class="card-content white-text">
+              <span class="card-title">Salaminho</span>
+              <p>Salame: é composto por uma mistura de diferentes tipos de carnes moídas e uma série de outros ingredientes que variam de acordo com o tipo de salame.</p>
+            </div>
+            <div class="card-action">
+              <a href="#" class="btn yellow accent-2 red-text">Comprar</a>
+              <a href="#" class="btn lime accent-3 red-text">Encomendar</a>
+            </div>
+          </div>
+        </div>
+<!-- final cad 1 -->
+<!-- inicio card 2 -->
+        <div class="col s11 m4">
+          <div class="card large orange darken-2">
+            <div class="card-image">
+              <img src="imagem/salsicha.jpg"height="200px"></div>
+            <div class="card-content white-text">
+              <span class="card-title">Salsicha</span>
+              <p>Salsicha: “Carnes de diferentes espécies de animais de açougue,carnes mecanicamente separadas até o limite máximo de 60%”.</p>
+            </div>
+            <div class="card-action">
+              <a href="#" class="btn yellow accent-2 red-text">Comprar</a>
+              <a href="#" class="btn lime accent-3 red-text">Encomendar</a>
+            </div>
+          </div>
+        </div>
+<!-- final card 2 -->
+<!-- inicio card 3 -->
+        <div class="col s12 m4">
+          <div class="card large orange darken-2">
+            <div class="card-image">
+              <img src="imagem/linguiça.jpg"height="200px"></div>
+            <div class="card-content white-text">
+              <span class="card-title">Linguiça</span>
+              <p>Linguiça: é um enchido em forma de salsicha, feito de carne de porco, de aves, de carneiro, de carne de bovinos e mesmo peixes ou frutos do mar.</p>
+            </div>
+            <div class="card-action">
+              <a href="#" class="btn yellow accent-2 red-text">Comprar</a>
+              <a href="#" class="btn lime accent-3 red-text">Encomendar</a>
+            </div>
+          </div>
+        </div> <!-- final card 3 -->
+      </div>
+      <!-- fim cards -->
+<!-- video 1 -->
+      <div class="row">
+        <div class="col s6 m6">
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/SWQwPXtxIXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>  
+        </div>
+    <!-- video 2 -->
+        <div class="col m6 s6">
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/SWQwPXtxIXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>  
+        </div>
+      </div>
+      <!-- fim video -->
+      <div class="titulo">
+        <div class="row"><center><h1>Cadastro</h1></center></div>
+      </div>
+
+    <!-- cadastro -->
+      <div class="row">
+        <div class="col s12 m12">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input placeholder="Nome" id="nome" type="text" class="validate">
+                <label for="nome">Nome</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="cpf" type="text" class="validate">
+                <label for="cpf">CPF</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s11">
+                <input  id="Endereço" type="text" class="validate">
+                <label for="Endereço">Endereço</label>
+              </div>
+              <div class="input-field col s1">
+                <input placeholder="Nº" id="numerocasa" type="text" class="validate">
+                <label for="numero">Nº</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="text" type="text" class="validate">
+                <label for="bairro">Bairro</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="cidade" type="email" class="validate">
+                <label for="cidade">Cidade</label>
+              </div>
+            </div>
+            <div class="row">
+              <a class="waves-effect waves-light btn-small indigo darken-4">Enviar</a>
+            </div>
+        </div>
+      </div>
+<!-- fim cadastro -->
     </main> 
 
 <footer class="page-footer purple darken-1">
   <div class="footer-copyright">
     <div class="container">
-    © 2022 Copyright Text
-    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    © 2022 Feito com Materialize.
+    <a class="grey-text text-lighten-4 right" href="https://github.com/WilliamLeite02">WilliamLeite</a>
     </div>
   </div>
 </footer>
