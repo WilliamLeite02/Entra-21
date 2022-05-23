@@ -5,9 +5,9 @@ html{
     overflow-y: scroll;
 }
 html, body{
+    min-height: 100%;
     margin: 0; 
     padding: 0px;
-    background-color: antiquewhite;
 }
 *{
         font-family: 'Roboto', 'Signika Negative', sans-serif;
@@ -15,17 +15,53 @@ html, body{
 body{
     background: antiquewhite;
 }
+main h2 {
+    color:rgb(0, 0, 0);
+}
+main h1{
+    color:#00dcff91;
+}
 /*View Port (VW W= width e VH h=height*/
 body.paginaNoticia{
-    background: url(../img/l.png) no-repeat center fixed;
+    background: url(../img/1.jpg) no-repeat center fixed;
     background-size: 100vw;
 }
 body.paginaHome{
-    background: url(../img/l.png) no-repeat center fixed;
+    background: url(../img/2.jpg) no-repeat center fixed;
+    background-size: 100vw;    
+}
+body.paginaHome h1{
+    color:red;
+}
+body .lente{
+    position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	opacity: 0.2;
+	z-index: -1;
+}
+body.paginaCadastro{
+    background: url(../img/3.jpg) no-repeat center fixed;
     background-size: 100vw;
 }
 body.paginaContato{
-    background: unset;
+    background: url(../img/4.jpg) no-repeat center fixed;
+    background-size: 100vw;
+}
+body.paginaServicos{
+    background: url(../img/5.jpg) no-repeat center fixed;
+    background-size: 100vw;
+}
+body.paginaMidia{
+    background: url(../img/6.jpg) no-repeat center fixed;
+    background-size: 100vw;
+}
+body.paginaEmpresa{
+    background: url(../img/7.jpg) no-repeat center fixed;
+    background-size: 100vw;
 }
 body.paginaContato video{
     position: fixed;
@@ -39,7 +75,7 @@ nav{
     left: 0;
     top: 0;
     width: 100%;
-    height: 64px;
+    height: 70px;
     background: #f37933;
 }
 body.paginaContato nav{
@@ -52,35 +88,57 @@ body.paginaContato .lente{
     width: 100%;
     height: 100%;
     background: #fff;
-    opacity: 0.7;
-    z-index: -1;
+    
 }
-nav img{
-    width: 90px;
-    height: 65px;
+body.paginaHome img.logoSite{
+    width: 93px;
+    height: 70px;
+    padding-top: 0px;
     float: left;
+}
+.logoSite{
+    width: 93px;
+    height: 70px;
+    padding-top: 0px;
+    float: left;
+}
+body.paginaServicos table{
+	width: 95%;
+	margin: 0 auto;
+	border: 4px solid #006e8b9e;
+}
+body.paginaServicos table td{
+	background: #ffffff91;
+	padding: 0px;
+	border: 4px solid #006e8b9e;
+}
+body.paginaServicos table tr.titulo td{
+	background: #1bb56e52!important;
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
 }
 nav a{
     display: block;
 	width: auto;	
 	height: 56px;
-	padding: 4px;
+	padding: 5px;
 	float: left;
-	line-height: 53px;
+	line-height: 60px;
 	color: white;
 	text-decoration: none; 
     margin-left: 15px;
     font-family:'Signika Negative';
     font-weight: 800;
-    font-size: 18px;
+    font-size: 21px;
 }
 main{
-    padding:80px 0px;
+    margin: 100px 0;
 }
 .homeArticle{
-    width: 43%;
+    width: 46%;
     background: rgb(231, 220, 220);
-    margin: 26px 1%;  /* parametro (5px 0px) margem em cima e em baixo / direita e esquerda*/
+    margin: 100px 1%;  /* parametro (5px 0px) margem em cima e em baixo / direita e esquerda*/
     border-radius: 25px;
     box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 5);
     padding: 15px;
@@ -96,7 +154,7 @@ main{
 }
 .homeArticle img{
     float: left;
-    height: 150px;
+    height: 200px;
     margin-right: 10px ;
     border: 10px  black;
     border-radius: 15px;
@@ -178,8 +236,9 @@ footer{
     height: 40px;
     background: #f37933;
     bottom: 0;
-    position:relative;
-    margin: auto ;
+    position: absolute;
+    margin: auto 0;
+    
 }
 footer span{
     display: inline-block; 
@@ -247,7 +306,12 @@ form{
 .formGroup.total{
     width: 98%;
 }
-
+body.paginaEmpresa .footer{
+    position: relative;
+}
+body.paginaServicos .footer{
+    position: relative;
+}
 
 /*body.paginaServico{
     background: unset;
