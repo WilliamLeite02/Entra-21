@@ -26,6 +26,10 @@ body.paginaNoticia{
     background: url(../img/1.jpg) no-repeat center fixed;
     background-size: 100vw;
 }
+body.paginaNoticia .homeArticle img{
+    width: 250px;
+    height: 150;
+}
 body.paginaHome{
     background: url(../img/2.jpg) no-repeat center fixed;
     background-size: 100vw;    
@@ -86,7 +90,7 @@ body.paginaContato .lente{
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
     background: #fff;
     
 }
@@ -173,7 +177,7 @@ main{
     display: block;
     width:100px;
     position: relative;
-    margin-right: 40%;
+    margin-right: 30%;
     float: right;
     padding: 4px;
     text-align: center;
@@ -312,56 +316,18 @@ body.paginaEmpresa .footer{
 body.paginaServicos .footer{
     position: relative;
 }
-
-/*body.paginaServico{
-    background: unset;
-    <video src="..videos/ocean.mp4" muted autoplay loop></video>
-    
+body.paginaHome .footer{
+    position: relative;
 }
-css
-body.paginaServicos video{
-    pisition: fixed;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    deixar o video menos visivel
-    opacity: 0.4
-
+body.paginaNoticia .footer{
+    position: relative;
 }
-css
-body.paginaServico nav{
-    background: #000;
+body.paginaMidia .footer{
+    position: relative;
 }
-Criar uma lente 
-primeiro criar uma <div> com class="lente" englobando todo o conteudo
-depois no no CSS
-html
-<div class="lente"></div>
-
-css
-body.paginaServico .lente{
-    position: absolute;
-    left:0;
-    top:0;
-    width:100%;
-    heigth:100%;
-    background: #fff;
-    opacity: 0.7;
-    z-index:-1;
+body.paginaContato .footer{
+    position: relative;
 }
-
-body.paginaServico table{
-    width:90%;
-    margin:0 auto;
-    border: 1px solid #fff;
+body.paginaCadastro .footer{
+    position:relative;
 }
-body.paginaServico table td{
-    background: #000;
-    pading: 5px;
-}
-body.paginaServico table.titulo td{
-
-}
-
-*/
