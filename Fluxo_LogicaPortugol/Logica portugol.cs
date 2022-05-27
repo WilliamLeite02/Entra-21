@@ -173,9 +173,102 @@ programa
 
 		escreva("valor da Fatura: ",valor)
 		
-		
+/*----atividade8*/----------------------------------------
+
+		real parcela, juros, valor, boleto, total
+
+		escreva("valor financiado: ")
+		leia(valor)
+		escreva("numero de parcelas: ")
+		leia(parcela)
+		escreva("juros aplicado = 1,5% ")
 
 		
+		juros= 1.5 * valor
+		boleto= juros/parcela
+
+		escreva("parcelamento do financiamento ficou em R$ ",boleto)
+
+
+/*----atividade9*/-------------------------------------------------
+
+		real gota, agua, segundos, tempo
+
+		escreva("uma gota cai acada 3 seg ")
+		escreva("cada gota tem 0.2 ml")
+		escreva("quantas gotas caem em 3 horas?")
+
+		
+		gota=3600 * 0.2
+		agua=gota/1000
+		tempo=agua
+		escreva("\n ",tempo, " ml por hora")
+
+
+/*----atividade 10*/----------------------------------------------
+			
+
+		real dolar, dinheiro
+
+		escreva("quantos U$ para converter em R$: ")
+		leia(dolar)
+		
+		dinheiro=dolar*4.97
+		
+		escreva("total em reais: ",dinheiro)		
+
+/*----Exercicio de sexta*/----------------------------------
+
+		inteiro valor1
+
+		escreva("numero: ")
+		leia(valor1)
+
+		se (valor1 > 10)
+		{
+		escreva("numero maior que 10 = ",valor1)
+		}senao
+		{
+		escreva("valor menor de 10")
+		}
+
+/*---------------------------------------------------------------------*/
+
+			inteiro valor1,valor2
+
+		escreva("numero: ")
+		leia(valor1)
+
+		escreva("numero: ")
+		leia(valor2)
+		
+		se (valor1 > valor2)
+		{
+		escreva("numero maior= ",valor1)
+		}senao{
+			escreva("numero maior= ",valor2)
+		}
+		
+
+------------------------------------------------------------------------
+
+inteiro valor1
+
+	escreva("numero: ")      /*arrumar*/
+	leia(valor1)
+	
+	se(valor1 >0 e valor1 < 1000)
+	{
+		escreva(valor1)
+	}senao (valor1 <>2e0)
+	{
+		escreva(valor1," par")
+	}
+	
+
+
+
+
 	} 
 }
 
