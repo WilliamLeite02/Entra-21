@@ -1,0 +1,29 @@
+Empresa diferece por Caracteristicas 
+caracteristicas = informações, telefone, nome, cnpj, local,
+
+classe= empresa
+
+atributos = cnpj, empresanome,endereço, telefone, 
+
+ramo de ativiade.
+
+ações = metodos SEMPRE no Verbo
+contratar, demitir, pagar
+
+pensado para o cliente == o foco de qualquer empresa ou programa é pra o CLIENTE
+
+classe= cliente
+atributos= idcliente, nome, 
+ações= pagar, comprar, trocar, devolver
+
+
+Classe= produto
+atributo= quantidade, idproduto,valorunitario
+ações=comprar,vender,trocar
+
+Ligação = empresa tem o produto e cliente procura empresa para ter o produto 
+cliente-empresa-produto.
+
+
+
+

@@ -1,0 +1,18 @@
+Tipos de atributos
+
+
+Classe = Cliente
+idcliente - numero ex=33224		int(integer)-numero inteiro
+nomeCliente - escrita ex- william	string - caracter   VARCHAR - usa menos memória || CHAR - usa mais memória
+dataNascimento -data ex-2001/04/27	Date(ano,mes,dia)
+Ndependentes - bolean			Bolean(Verdadeiro ou Falso)
+valorCompra - double			double(1,20) valor com , ou quebrado.
+
+Atributos.
+comprar
+Trocar
+pagar
+
+
+
+int= idcliente 6

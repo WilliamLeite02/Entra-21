@@ -1,0 +1,21 @@
+Nomenclatura de classes
+					||= pipe - sig-cano
+Atributo
+
+1- palavra - minuscula.
+ex: nome
+
+2- palavras ou mais a 1º será em minuscula e os demais, primeira letra em maiuscula.
+ex: numeroDeDependentes.
+
+3- a palavra nao pode começar com numero.
+ex:1nome (nao pode) nome1=pode
+
+4- a palavra nao pode ter caracteres especiais
+ex: * $ # @ ! & ¨ 
+
+5 - a palavra nao pode ter acento nem Ç ç.
+ex: pé, mão  
+
+
+
