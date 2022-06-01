@@ -1,0 +1,23 @@
+Carro 
+
+idCarro	- int
+marca - String
+modelo - String
+tipo - String
+ano - date
+placa - String
+
+
+Modelo Relacional
+Classes relacionar com outras Classes
+
+Loja		Cliente		Produto
+idLoja		idCliente	idProduto	
+
+ID = PK primary key = chave primária || FK foreign key = chave estrangeira OU chave secundaria
+
+
+Loja			Cliente		Produto
+PK-idLoja		PK-idCliente	PK-idProduto	
+			FK-idLoja
+			FK-idProduto
