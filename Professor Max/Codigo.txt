@@ -1,0 +1,8 @@
+Código
+	Projeto(Desenvolvimento)
+		Classe(Organização)
+		-atributos
+		-metodos
+			-compilação = se nao compilar (mensagem de erro) = depuração(analizar)
+				    = se compilar = depurarção (analizar)
+		
