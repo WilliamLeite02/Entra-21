@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Data
+comment1.params=dia
+comment1.target=void\ setDia(int)
+comment2.params=mes
+comment2.target=void\ setMes(int)
+comment3.params=ano
+comment3.target=void\ setAno(int)
+comment4.params=
+comment4.target=int\ getDia()
+comment5.params=
+comment5.target=int\ getMes()
+comment6.params=
+comment6.target=int\ getAno()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8
