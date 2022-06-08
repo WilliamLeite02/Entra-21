@@ -16,13 +16,13 @@ public class Tarrefa{
         salarioBase=ler.nextDouble();
         System.out.println("total de vendas do funcionário:");
         vendas=ler.nextDouble();
+           
+        inss=0.09*salarioBase;
+        valeRefeicao=0.06*salarioBase;
+        insalubridade=0.22*salarioBase;
+        comissao=0.05*vendas;
         
-        inss=0.09;
-        valeRefeicao=0.06;
-        insalubridade=0.22;
-        comissao=0.05;
-        
-        salarioLiquido= salarioBase+vendas+insalubridade-inss-valeRefeicao;
+        salarioLiquido= salarioBase+insalubridade+comissao-inss-valeRefeicao;
         
         System.out.print("Salario liquido do Funcionario "+nomeFuncionario+" "+salarioLiquido);
         

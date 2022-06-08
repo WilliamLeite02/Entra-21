@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Semaforo
+comment1.params=
+comment1.target=Semaforo()
+comment2.params=cor
+comment2.target=Semaforo(java.lang.String)
+comment3.params=
+comment3.target=void\ sinalizarAtencao()
+comment4.params=
+comment4.target=void\ sinalizarPare()
+comment5.params=
+comment5.target=void\ sinalizarSiga()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
