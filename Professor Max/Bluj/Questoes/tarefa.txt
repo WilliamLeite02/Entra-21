@@ -4,7 +4,7 @@ Atividades Complementares – deve ser entregue ou enviada para o professor Max.
 ATRIBUTOS=VARIAVEIS E METODOS=FUNÇÕES.
 
 2. Um objeto é gerado sempre a partir de uma: 
-CLASSE.
+REFERENCIA DA CLASSE.
 
 3. Uma classe é formada por: 
 MODELO DE OBJETO,DEFINE ATRIBUTOS E METODOS.
@@ -37,8 +37,8 @@ METODOS SÃO AS AÇÕES QUE IRAM SER EXERCIDAS= ANDAR,CORRER,LER
 a.(a+b< c || b!=a && a>0) (TRUE)
 b.(c <= a * a || c <= a*b || c<= a + b) (TRUE)
 c.a<b && b<c && c<a (FALSE)
-d.!a<b && !a<c && !c<a (FALSE)
-e.(a!=b || b>c) &&b-a>0 (TRUE)
+d.!a<b && !a<c && !c<a (FALSE)    !negação a3<b2 = b2<a3
+e.(a!=b || b>c) &&b-a>0 (FALSE)
 
 
 2.Considere que temos os seguintes valores: a=3, b=10 e c=7. Determine o resultado dos testes lógicos, verdadeiro ou falso:
@@ -52,7 +52,7 @@ e.b – a > a – c (TRUE)
 3.Responda.
 
 a)O que é classe, objeto, atributos e métodos?
-CLASSE É O LOCAL ONDE IREMOR CRIAR O OBJETO, OBJETO É USADO PARA ARMAZENAR DADOS,
+CLASSE É O LOCAL ONDE IREMOS CRIAR O OBJETO, OBJETO É USADO PARA ARMAZENAR DADOS,
 ATRIBUTOS SÃO CARACTERISTICAS DO OBJETO E METODOS SÃO AS AÇÕES QUE ELE IRA EXECUTAR;
 
 b)Quais são os modificadores que podem ser utilizados na criação de um código? Conceitue-os.
@@ -69,7 +69,8 @@ Math.sqrt, Math.cbrt;
 
 
 e)O que significa instanciando um objeto? De um exemplo.
-INSTANCIAR É CHAMAR O OBJETO DENTRO DA CLASSE CRIADA;
+INSTANCIAR É CHAMAR O OBJETO DENTRO DA CLASSE CRIADA; REFERENCIAR UM OBJETO PARA QUE EXECUTE UMA AÇÂO;
+ex: Scanner
 
 f)O que fazem os métodos get e set?
 SET PARA GUARDAR A INFORMAÇÃO DE FORMA PRIVADA E GET PARA RETORNAR O RESULTADO; 
@@ -77,12 +78,12 @@ SET PARA GUARDAR A INFORMAÇÃO DE FORMA PRIVADA E GET PARA RETORNAR O RESULTADO
 
 g)O que é um método Construtor?
 O METODO CONTRUTOR É RESPONSAVEL POR DEFINIR OS PADRÕES INICIAIS DO OBJETO;
-CONTRUIR O OBJETO NA MEMORIA.
+FAZ COM QUE OS ARGUMENTOS FORME UM OBJETO;
 
 
 h)O que caracteriza em um código condicionais encadeadas?
-QUANDO O CODIGO TEM QUE ATENDER DETERMINADA CONDIÇÃO= VERDADEIRO OU FALSO 
-BOOLEAN;
+QUANDO O CODIGO TEM QUE ATENDER DETERMINADA CONDIÇÃO= VERDADEIRO OU FALSO
+IF, ELSE IF, ELSE exemplos de encadeamento; if 1 || 2, if 1 && 2;
 
 
 i)Em qual caso devemos utilizar o Swith?
@@ -100,27 +101,28 @@ IF dia>00 && <12 Print=manhã, ELSE IF tarde>13 && <18 Print=tarde, ElSE Print=n
 
 
 l)Para que serve o incremento?
-FAZER SOMA OU AUMENTAR QUANTIDADE;
+JUNTAR UMA INFORMAÇÂO,ACRECENTAR ALGO;
 
 
 m)O que é compilação?
 COMPILAÇÃO É A TRANSCRIÇÃO DO PROGRAMA PARA LINGUAGEM DE MAQUINA;
-
+SALVA E EXECUTA
 
 n)Qual a utilização do Scanner na classe principal?
-O SCANNER É UTILIZADO PARA LER E ARMAZENAR DADOS;
+O SCANNER É UTILIZADO PARA INSTANCIAR UM OBJETO;
 
 
 o)Qual regra é utilizada para imprimirmos um resultado no vídeo?
-PRINT + A VARIÁVEL;("NOME"+NOME);
+SYSTEM.OUT.PRINT( );
 
 
 p)O que são conversões de nomenclatura?
-SAO FOMAS DE ESCREVER VARIÁVEIS,METODOS,CLASSE E ATRIBUTO DE FORMA QUE SEJA FÁCIL SE IDENTAR E ENTENDER 
+È A MANEIRA DE ESCREVER VARIÁVEIS,METODOS,CLASSE E ATRIBUTO DE FORMA QUE SEJA FÁCIL SE IDENTAR E ENTENDER 
 O CODIGO; nomeDoFuncionario;idade;lataLixo;Pessoa;atenderChamado;
 
 
 q)Para que servem as estruturas de controle?Cite três delas. 
+CLASSE<ATRIBUTOS<METODOS
 IF ELSE, WHILE, FOR;
 
 
