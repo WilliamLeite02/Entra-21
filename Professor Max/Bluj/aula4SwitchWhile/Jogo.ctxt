@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Jogo
+comment1.params=jogadaUsuario
+comment1.target=Jogo(byte)
+comment2.params=
+comment2.target=java.lang.String\ verificarVencedor()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

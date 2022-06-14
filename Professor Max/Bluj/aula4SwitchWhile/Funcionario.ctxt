@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Funcionario
+comment1.params=
+comment1.target=void\ dobrarSalario()
+comment2.params=
+comment2.target=double\ calcularFerias()
+comment3.params=valor
+comment3.target=void\ descontarAdiantamento(double)
+comment4.params=totalDeHoras
+comment4.target=double\ calcularHoraExtra(double)
+numComments=5

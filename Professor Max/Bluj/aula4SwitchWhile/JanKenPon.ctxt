@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=JanKenPon
+comment1.params=jogada
+comment1.target=JanKenPon(byte)
+comment2.params=
+comment2.target=byte\ getJogada()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Semana
+comment1.params=dia
+comment1.target=void\ setDia(int)
+comment2.params=
+comment2.target=int\ getDia()
+comment3.params=
+comment3.target=java.lang.String\ verDiaDaSemana()
+numComments=4
