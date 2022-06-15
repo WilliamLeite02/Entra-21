@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Treino
+comment1.params=
+comment1.target=Treino()
+comment2.params=
+comment2.target=java.lang.String\ getNome()
+comment3.params=
+comment3.target=double[]\ getMarcas()
+comment4.params=nome
+comment4.target=void\ setNome(java.lang.String)
+comment5.params=marcas
+comment5.target=void\ setMarcas(double[])
+comment6.params=numero\ marca
+comment6.target=void\ armazenarMarca(int,\ double)
+comment7.params=
+comment7.target=double\ calcularMediaDeMarcas()
+comment8.params=
+comment8.target=double\ obterMaiorMarca()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10
