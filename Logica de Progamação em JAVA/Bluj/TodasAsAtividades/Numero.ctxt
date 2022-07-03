@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Numero
+comment1.params=numero
+comment1.target=void\ setNumero(int)
+comment2.params=
+comment2.target=int\ getNumero()
+comment3.params=
+comment3.target=java.lang.String\ verificarNumero()
+numComments=4
