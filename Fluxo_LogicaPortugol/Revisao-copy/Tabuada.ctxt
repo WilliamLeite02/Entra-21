@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Tabuada
+comment1.params=
+comment1.target=int\ getValor()
+comment2.params=valor
+comment2.target=void\ setValor(int)
+comment3.params=multiplicador
+comment3.target=java.lang.String\ gerarTabuada(int)
+numComments=4

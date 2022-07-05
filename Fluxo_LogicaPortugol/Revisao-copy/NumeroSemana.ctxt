@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=NumeroSemana
+comment1.params=valor
+comment1.target=NumeroSemana(int)
+comment2.params=valor
+comment2.target=void\ setValor(int)
+comment3.params=
+comment3.target=int\ getValor()
+comment4.params=
+comment4.target=int\ calcularFatorial()
+comment5.params=
+comment5.target=int\ calcularSomatorio()
+comment6.params=
+comment6.target=int\ contarMultiplos()
+comment7.params=
+comment7.target=java.lang.String\ verificarSeEPrimo()
+numComments=8
