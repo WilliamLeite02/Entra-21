@@ -1,0 +1,59 @@
+https://lucid.app/lucidchart/29248f9d-e35f-4de8-833e-c78188d7164a/edit?viewport_loc=-189%2C399%2C3306%2C1557%2CHWEp-vi-RSFO&invitationId=inv_d14541f2-ee44-4edf-8dda-4ddefb89e142#
+    
+Documentação
+
+
+Terminal Regional
+é em carregado por separar e transportar apenas cargas de tipo container.
+Cobrar pelo transporte.
+
+
+Terminal Transbordo
+é em carregado por separar e transportar apenas cargas de tipo granel.
+Cobrar pelo transporte.
+
+
+Terminal Concentradores
+é em carregado por separar e transportar apenas cargas de líquidos.
+Cobrar pelo transporte.
+
+
+Transporte De Cargas Interno *Porto*
+tem a função de rastrear a carga, projetar rotas para transportar as cargas internas, de separar e guardar
+as cargas dos demais terminais, para fazer o transporte para o próximo
+local de destino.
+Cobrar pelo transporte a armazenamento.
+
+
+Containers Armazém 
+tem função de separação e armazenar a carga para o transporte futuro.
+custo para guardar a carga.
+
+
+Transporte de Carga
+em carregado de transportar e seguir a rota planejada, cumprir o prazo de entrega e cuidar da carga.
+Cobrar pelo transporte.
+
+
+Carga
+está armazena os dados da carga como: nome, tipo de carga, peso, quantidade, lote e rastreamento.
+valor da carga.
+
+
+Porto Services Especializado
+cuida do embarque e desembarque das cargas, rastreamento e prazos de entrega e recebimento.
+Cobrar pelo transporte e armazenamento.
+
+
+Retro Porto
+Empresa que maneja o Porto, pagar e contratar funcionários.
+
+
+Funcionário
+desempenhar atividades dentro do porto.
+cartão ponto.
+
+
+Cliente
+Dono da carga para transporte.
+pagar pelo transporte e armazenamento.
