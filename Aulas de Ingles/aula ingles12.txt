@@ -1,7 +1,16 @@
 100% Always
 75% Usually / Often
 50% Sometimes
-
+25% 
 5% Rarely / Seldom / Hardly ever
 0% Never.
 
+what sports do you like?
+i like and i dont like.
+
+What sports do you play?
+Who do you play basketball with?
+Where do you play?
+How often do you pratice?
+When do you pratice?
+What time do you start?
