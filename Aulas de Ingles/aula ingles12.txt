@@ -35,3 +35,21 @@ B:WHAT TIME DO you usually watch soccer?
 A; in the evening or on weekends.
 B; and WHERE DO you usually watch it? at home?
 A; no, at my brother's house. he has a home theater!
+
+C; what sports do you like?
+D; i like a lot of sports, but i really love volleyball
+C; who do you play volleyball with?
+D;i usually play with my sister and some friends.
+C;when do pratice sports?
+D; we practice on saturdays.
+C;what time do your start?
+D; we start at about noon.
+C;where do you play?
+D; we usually play at a sports club, but sometimes we play on the beach.
+
+1. what sport do you like? = c. soccer i love to watch my team.
+2. when do you go to games with? = a. my father and my two brothers.
+3. how often do your team play? = d. once or twice a month.
+4. where they play? = f. at the olympic stadium.
+5. what time they play? = e. on sunday afternoons.
+6. what time often the games start? = b. usually at four o'clock.
