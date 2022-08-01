@@ -59,5 +59,10 @@ D; we usually play at a sports club, but sometimes we play on the beach.
 where do you like play? PC or Console?
 what games?
 
-
+1.i can swim
+2.i can fix cars
+3.i can't sing
+4.i can't ice-skate
+5.i can play the piano
+6.i can't cook.
 
