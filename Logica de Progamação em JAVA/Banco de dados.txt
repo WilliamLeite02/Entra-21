@@ -1,0 +1,16 @@
+PK= primary key / chave primaria
+NN= not null / nao pode ser nulo sem valor
+UQ= unique / valor unico apenas um
+B= binary= 
+UN= unsigned= nao aceita numeros
+ZF= zero fill / acrecenta 0 ao lado esquerdo
+AI= alto increment / 1 2 3 sempre em sequencia
+
+char=define uma quantidade e fica sempre nessa 
+varchar= define uma quantidade mas sempre vai ter sobrando.
+
+Cardinalidade = um para muitos ou muitos para muitos. se refere a ligação entre duas classes.
+Banco de Dados
+	ter as informações
+		criar as tabelas sub-sequente as informações.
+
