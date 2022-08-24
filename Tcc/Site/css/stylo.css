@@ -1,0 +1,44 @@
+
+body.pageSite{
+    background: url('../img/fundo.jpg') no-repeat center fixed;
+    background-size: 50vw; /* vw ou vh*/
+    background-position: left;
+}
+
+.logosite{
+    float: left;
+    width: 65px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+ 
+.row {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 10px;
+  margin: 10px;
+  width: 220px;
+  transition: all 0.3s ease-out;
+}
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.image {
+  align-items: center;
+  max-width: 200px;
+  max-height: 120px;
+}
+ 
+
+ 
+  
+
+    
