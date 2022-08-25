@@ -1,4 +1,3 @@
-insert into turma values(0 ,'202', '0', '0');
-select * from turma;
-describe aluno;
-use curso;
+insert into paciente values('123456', 'josnel', 'rua limao', 'velhao', 'bruchelas', 'AC', '47665549809', 'Masculino', 'josnel@gmail.com', 'Aguardando na enfermaria', 'UTI', '4738383809', '8909076', '34423412389'); 
+insert into paciente values('126987', 'maiarar', 'rua mamao', 'nova', 'chupisco', 'RJ', '47555872345', 'Feminino', 'maiarar@gmail.com', 'Aguardando Diagnostíco', 'CTI', '4788665544', '8754602', '15415187433'); 
+select * from paciente;
