@@ -1,0 +1,22 @@
+William A .A. Leite	C# 06/09/22
+
+1- [B]_Classes e estruturas podem definir múltiplos Indexadores.
+
+2- [D]_False,False,True,False,True.
+
+        A
+3- [A]_Area do Cículo : 12,566370614359172
+
+4- [A]_Caso x seja False, y não será avaliado.
+
+5- [C]_Caso 3: 20 Caso 1: 15 Caso 2: 5.
+
+6- [C]_Resultado: 24.
+
+7- [A]_== ! % || &&.
+
+8- [E]_Inicio 45,45,45,5,1 fim.
+
+9- [A]_1;
+
+10- [E]_Zero e cinco vezes, respectivamente.
