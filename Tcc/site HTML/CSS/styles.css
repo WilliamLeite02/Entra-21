@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+html, body{
+    min-height: 100%;
+    margin: 0; 
+    padding: 0px;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: antiquewhite;
+  }
+body.paginaSite{
+    background: url("../img/fundo.jpg") no-repeat center fixed;
+    background-size: 50vw;
+    background-position: left;
+}
+
+nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background: rgba(22, 109, 196, 0.822);
+
+}   
+
+.logoSite{
+    width: 90px;
+    height: 60px;
+    padding-top: 0px;
+    float: left;
+}
+
+nav a{
+    display: block;
+	width: auto;	
+	height: 45px;
+	padding: 5px;
+	float: right;
+	line-height: 55px;
+	color: white;
+	text-decoration: none; 
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family:'Signika Negative';
+    font-weight: 800;
+    font-size: 21px;
+}
+
+.row{
+    margin-top: 70px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 7px, 7px, 15px 0 rgb(50, 50, 50, 0.22);
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(235, 225, 225);
+
+}
+.card:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+
+}
+.image{
+    align-items: center;
+    max-width: 200px;
+    max-height: 120px;
+
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 40px;
+    background: rgba(22, 109, 196, 0.822);
+    bottom: 0;
+    position: fixed;
+    margin: auto 0;
+    
+}
+footer span{
+    display: inline-block; 
+    width: 47%;
+    color: black;
+    padding: 10px;
+}
+footer .assinatura{
+    text-align: right;
+    padding-left: 25px;
+}
+
