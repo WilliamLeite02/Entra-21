@@ -18,6 +18,7 @@ body {
   display: flex;
   justify-content: right;
   align-items: center;
+  
 }
 .card {
   border-radius: 5px;
@@ -26,17 +27,27 @@ body {
   margin: 10px;
   width: 220px;
   transition: all 0.3s ease-out;
+  margin-right: 10px;
+  
 }
 .card:hover {
   transform: translateY(-5px);
   cursor: pointer;
+ 
 }
 .image {
   align-items: center;
   max-width: 200px;
   max-height: 120px;
 }
- 
+nav h6{
+	float: left;
+	line-height: 40px;
+  margin-right:300px;
+}
+nav-wrapper.container{
+  max-width: 2050px;
+}
 
  
   
