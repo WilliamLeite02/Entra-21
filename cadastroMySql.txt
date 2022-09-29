@@ -1,0 +1,48 @@
+using MySql.Data.MySqlConnection;
+
+
+
+
+cadastro
+Form_Cadastro Cadastro = new Form_Cadastro();
+Cadastro.Show();
+
+
+btnTrocar
+String string_conexao = "Server=localhost;Database=Projeto;"+"user id=root; pwd=root;"
+MySqlConnection connection = new MySqlConnection(string_conexao);
+MySqlCommand comando_buscar = new MySqlCommand("Select * From Vista Order By Rand() Limit 1, connection");
+MySqlDataReader meu_reader;
+try
+{
+	connection.Open();
+	meu_reader = comando_buscar.ExecuteReader();
+	while(meu_reader.Read())
+	{
+		String nome = meu_reader.GetString("nome");
+		txtNome.Text = nome.ToString();
+		byte[] imagem = (byte[])(meu_reader["imagem"]);
+		
+		if(imagem == null)
+		{
+			pictureBox1.image = null;
+		}else
+		{
+			MemoryStream msteam = new MemoryStream(imagem);
+			pictureBox1.imagem = System.Drawing.Image.FromStream(mstream);
+
+		}
+		MessageBox.Show("Muito Bom"+nome,ToString()+"!");
+	}	catch(Exception E)
+	{
+		MessageBox.Show(E.Message.ToString)
+	}
+
+}
+
+workBench
+entrar no localhost = root;
+creat database Projeto
+using Projeto
+use Projeto
+create table Vista(id_nome int auto_increment Primary Key not null, Nome varchar(45) not null, imagem bloblong);
