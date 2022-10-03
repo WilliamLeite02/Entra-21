@@ -1,0 +1,165 @@
+Projeto de conclusão de curso
+
+
+Autor:
+Marlon, Pedro, Lucas, William, João
+
+Curso de C#
+
+Orientador: Professor Max
+
+Título do Projeto:
+Ajuda fácil
+
+
+
+
+
+
+
+
+
+
+
+
+Introdução
+Com analises e pesquisas, encontramos a necessidade em nossa sociedade, de uma solução para a diferença entre os cenários familiares, aproximando e facilitando a caridade e empatia entre as pessoas de nossa sociedade.
+A finalidade de nosso projeto é dar acessibilidade a caridade e amparar entidades e famílias.  Facilitando ao máximo as doações, com finalidade de incentivar o aumento de caridades e ações ao necessitado.
+Compreende – se, que há um grande número de famílias necessitadas por todo o Brasil, amplificando a requisição de uma solução no mínimo parcial, que seja possível.
+É de conhecimento público, que através de redes sociais e sites de notícias encontrasse um grande número de desperdício de produtos de reutilização em caridade, através disso criamos um site através da linguagem C#, Framework Asp.Net, para criar um site web para suprir e facilitar doações para pessoas, entidades e famílias necessitadas.
+A pessoa ou entidade poderá se cadastrar na plataforma, criando uma conta de acesso e identificação, poderá escolher o tipo de doação que deseja fazer, terá a opção para recolhimento da doação, o usuário poderá informar, através da plataforma, para nossa equipe recolher a doação, sem sair do conforto de sua casa. A pessoa também terá a opção de doação através de contribuição, poderá doar através da conta bancária da instituição.
+A administração irá cadastrar as famílias e pessoas com necessidades no site, através de informações de entidades, e pessoas parceiras que fornecem informações ao site.
+Após o recolhimento das doações, a nossa plataforma fica encarregada de transferir as doações para as famílias ou entidades necessitadas. A pessoa que fez a doação será notificada quando foi entregue sua contribuição.
+
+
+
+
+
+
+
+
+
+
+ PROBLEMATIZAÇÃO
+Devido à quantidade de famílias e pessoas a serem cadastradas em nosso site e aos doadores que iram fazer a boa ação de ajudar essas entidades. 
+Nós encontraremos um difícil inicio para a nossa plataforma do qual poderá haver muitos pedidos para pouca demanda. Sendo assim também encontraremos dificuldades no momento de recebimento das doações e repasse.
+ Pensando nesse ponto nossa equipe já está planejando soluções e contra medidas para momentos como, esse, período de alavancagem de nossa plataforma.
+ Estamos cientes que o pedido será sempre maior que a demanda sendo assim iremos procurar formar de promover e dar destaque para a nossa causa, fazendo com que as pessoas tenham mais visibilidade para o nosso site e assim pratique boas ações ajudando da forma que lhe for conveniente, para o que o projeto seja reconhecido pelas pessoas doadoras e necessitadas. 
+Para o sistema de entrega e recolhimento dos itens doados, contaremos com ajudas comunitárias para fazer o recolhimento a entrega destes, assim, essa sendo já uma forma de boa ação, fazendo com que o projeto funcione e tenha continuidade.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contextualização Histórica
+
+Se encontramos em um período, pós-pandêmico, no qual ocorreu uma disfunção econômica em nosso país, causando demissões e desemprego, em 2020 ocorreu uma queda de 4,1 do PIB brasileiro em relação a 2019, porém em 2021 houve uma alta de 4,6 do PIB brasileiro em relação ao anterior. 
+Mas não indica que todas as famílias se recuperaram da crise de 2020 durante a pandemia. Com isso em 2022 ainda há uma média de 20% da população brasileira, se encontra em situação de pobreza.
+Causando em diversas famílias a carência de roupas, brinquedos, alimentos, utensílios, etc. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Resumo
+Por meio de um trabalho em grupo realizado em sala de aula, os cinco integrantes decidiram que pela precariedade de caridade e movimentos sociais que envolvam pessoas que necessitam ou precisam de ajuda com algum tipo de recurso, seja material ou financeiro. Porém nosso foco maior foi achar um meio em que não envolve-se a parte financeira, optamos por doações de materiais escolares, roupas e móveis. Sendo assim, nosso grupo ao se reunir em sala tivemos a idéia de então fazermos um site chamado AjudaFácil onde as pessoas possam se cadastrar e doar qualquer coisa que possa ajudar o proximo.
+
+
+
+
+
+
+Sumário
+Resumo..................................
+Introdução..............................
+Contextualização Histórica.....
+Problematização......................
+Projeto....................................
+Objetivos................................
+Programação e Aplicativos.....
+Introdução ao Desenvolvimento
+Conclusão.................................
+Referências................................
+
+
+
+
+
+projeto
+Tema
+	 Desenvolvimento de projeto com os ensinamentos do curso sobre C#
+Objetivo Geral
+Construir uma pagina na internet dinâmica que chame a atenção do publico para que seja continuo o uso da mesma.
+
+Objetivo
+O intuito do nosso projeto é a acessibilidade para a caridade, construindo uma plataforma segura, acessível e intuitiva para as pessoas que necessitam de uma ajuda solitária.
+
+Objetivos Especifico:
+. Incentivar e trabalhar as pessoas a caridade
+. Facilitar o acesso a famílias e pessoas com necessidades
+. Conscientizar a todos a necessidade ao auxilio dessas famílias.
+. Motivar e exibir os resultados para os colaboradores e os interessados em auxiliar.
+
+
+
+Programas Utilizados
+programação
+Para dar início ao processo de desenvolvimento da página, é preciso ter, primeiramente, os programas necessários para realizar a programação. Neste processo será utilizado linguagem C#, HTML, CSS e MySql. Com programas como: Visual Studio, MyWorkBench, MySql. Seu design limpo e simplificado otimiza o tempo dos  programadores e os oferece uma vasta gama de ferramentas para modelagem de páginas da internet.
+
+INICIANDO PROGRAMAÇÃO
+	Construção do HTML
+Para dar início ao desenvolvimento, começaremos com a construção dos códigos HTML. Essa linguagem consiste numa marcação de páginas web, ou seja, serve para que a internet identifique o conteúdo como sendo uma página web.
+
+Colocar Prints aki do HTML
+
+
+
+
+
+
+Construção do CSS
+O css serve para dar o estilo e as características à página. Em virtude disso, abaixo é exposta linguagem  dentro do bloco de comandos do CSS semelhante ao html. Com ele é possível desenvolver animações, gifs ou simplesmente dar dinamismo; movimentação às páginas web. 
+
+Print CSS 
+
+
+Conclusão
+
+
+
+Referências Bibliográficas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
